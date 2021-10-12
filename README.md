@@ -12,8 +12,8 @@ This is a [LIVE](https://alisherbegmatov.github.io/Subaru/) demonstration of the
 - [React Fade-In](https://www.npmjs.com/package/react-fade-in)
 - [Material UI Icons](https://mui.com/components/material-icons/)
 - [Styled-Components](https://styled-components.com)
-- Hosted on [GitHub Pages](https://pages.github.com)
-
+- [Figma Wireframe](https://www.figma.com/file/gbN7KndvWx7D4nByG98eCV/Subaru-Website?node-id=0%3A1)
+- [GitHub Pages](https://pages.github.com)
 ## Getting Started
 1. In order to clone the repository to your local machine, run the following command below or click the green Code button on the top right corner of the repository and then select Open with GitHub Desktop option or select Download ZIP option.
 ```zsh
