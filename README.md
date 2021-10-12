@@ -3,7 +3,7 @@
 <img alt="Screenshot" src="./public/images/screenshot.png" width="auto">
 </p>
 
-This is a [LIVE](https://github.com/alisherbegmatov) demonstration of the rebuild version of the official Subaru website for the North American region.
+This is a [LIVE](https://alisherbegmatov.github.io/Subaru/) demonstration of the rebuild version of the official Subaru website for the North American region.
 
 ## Built With
 
@@ -17,7 +17,7 @@ This is a [LIVE](https://github.com/alisherbegmatov) demonstration of the rebuil
 ## Getting Started
 1. In order to clone this repository to your local machine, run the following command below or click green download botton on the top right corner of the repository.
 ```zsh
-git clone https://github.com/alisherbegmatov/subaru.git
+git clone https://github.com/alisherbegmatov/Subaru.git
 ```
 ## Installation
 2. Open the project in the text / code editor of your choice and in the terminal, run the following command below:
