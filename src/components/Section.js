@@ -3,13 +3,14 @@ import styled from 'styled-components'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import FadeIn from 'react-fade-in'
 
-function Section ({ id, title, description, backgroundImg, leftButtonText, rightButtonText, textColor }) {
+function Section ({ id, title, description, msrp, backgroundImg, leftButtonText, rightButtonText, textColor }) {
   return (
     <Wrap bgImage={backgroundImg} id={id}>
       <FadeIn transitionDuration='1500'>
         <ItemText color={textColor}>
           <h1>{title}</h1>
           <h2>{description}</h2>
+          <h3>{msrp}</h3>
         </ItemText>
       </FadeIn>
       <Buttons>

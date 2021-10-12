@@ -35,14 +35,14 @@ function Header () {
         <CloseContainer>
           <CloseButton onClick={() => setBurgerStatus(false)} />
         </CloseContainer>
+        <li>Subaru BRZ</li>
+        <li>Subaru WRX</li>
         <li>Subaru Impreza</li>
         <li>Subaru Legacy</li>
         <li>Subaru Crosstrek</li>
         <li>Subaru Forester</li>
         <li>Subaru Outback</li>
         <li>Subaru Ascent</li>
-        <li>BRZ</li>
-        <li>WRX</li>
       </BurgerNavMenu>
     </Container>
   )
