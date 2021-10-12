@@ -15,7 +15,7 @@ This is a [LIVE](https://alisherbegmatov.github.io/Subaru/) demonstration of the
 - Hosted on [GitHub Pages](https://pages.github.com)
 
 ## Getting Started
-1. In order to clone the repository to your local machine, run the following command below or click the green download button on the top right corner of the repository.
+1. In order to clone the repository to your local machine, run the following command below or click the green Code button on the top right corner of the repository and then select Open with GitHub Desktop option or select Download ZIP option.
 ```zsh
 git clone https://github.com/alisherbegmatov/Subaru.git
 ```
