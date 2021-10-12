@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Subaru/static/css/main.6f7cc279.chunk.css",
+    "main.js": "/Subaru/static/js/main.4751d8c4.chunk.js",
+    "main.js.map": "/Subaru/static/js/main.4751d8c4.chunk.js.map",
+    "runtime-main.js": "/Subaru/static/js/runtime-main.a5da313a.js",
+    "runtime-main.js.map": "/Subaru/static/js/runtime-main.a5da313a.js.map",
+    "static/js/2.da0ffe39.chunk.js": "/Subaru/static/js/2.da0ffe39.chunk.js",
+    "static/js/2.da0ffe39.chunk.js.map": "/Subaru/static/js/2.da0ffe39.chunk.js.map",
+    "index.html": "/Subaru/index.html",
+    "static/css/main.6f7cc279.chunk.css.map": "/Subaru/static/css/main.6f7cc279.chunk.css.map",
+    "static/js/2.da0ffe39.chunk.js.LICENSE.txt": "/Subaru/static/js/2.da0ffe39.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5da313a.js",
+    "static/js/2.da0ffe39.chunk.js",
+    "static/css/main.6f7cc279.chunk.css",
+    "static/js/main.4751d8c4.chunk.js"
+  ]
+}
