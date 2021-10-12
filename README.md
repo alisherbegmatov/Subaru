@@ -3,7 +3,7 @@
 <img alt="Screenshot" src="./public/images/screenshot.png" width="auto">
 </p>
 
-This is a [LIVE](https://alisherbegmatov.github.io/Subaru/) demonstration of the rebuild version of the official Subaru website for the North American region.
+This is a [LIVE](https://alisherbegmatov.github.io/Subaru/) demonstration of the rebuilt version of the official Subaru website for the North America region.
 
 ## Built With
 
@@ -15,17 +15,17 @@ This is a [LIVE](https://alisherbegmatov.github.io/Subaru/) demonstration of the
 - Hosted on [GitHub Pages](https://pages.github.com)
 
 ## Getting Started
-1. In order to clone this repository to your local machine, run the following command below or click green download botton on the top right corner of the repository.
+1. In order to clone the repository to your local machine, run the following command below or click the green download button on the top right corner of the repository.
 ```zsh
 git clone https://github.com/alisherbegmatov/Subaru.git
 ```
 ## Installation
 2. Open the project in the text / code editor of your choice and in the terminal, run the following command below:
 ```zsh
-npm i or run npm install
+npm i or npm install
 ```
 ## Run
-3. After installation of the requred packages / dependencies, in the terminal, run the following command below:
+3. After installation of the required packages / dependencies, in the terminal, run the following command below:
 ```zsh
 npm start
 ```
