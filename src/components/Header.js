@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { selectCars } from '../features/car/Car'
+import { selectCars } from './Car'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-scroll'
 
@@ -27,22 +27,24 @@ function Header () {
         ))}
       </Menu>
       <RightMenu>
-        <li style={{ color: 'white' }}>Build & Price</li>
-        <li style={{ color: 'white' }}>Find Retailer</li>
+        <li style={{ color: 'white' }}><a href='https://www.subaru.com/build-your-own.html'>Build & Price</a></li>
+        <li style={{ color: 'white' }}><a href='https://www.subaru.com/find-retailer/index.html'>Find Retailer</a></li>
         <MenuButton onClick={() => setBurgerStatus(true)} />
       </RightMenu>
       <BurgerNavMenu show={burgerStatus}>
         <CloseContainer>
           <CloseButton onClick={() => setBurgerStatus(false)} />
         </CloseContainer>
-        <li>Subaru BRZ</li>
-        <li>Subaru WRX</li>
-        <li>Subaru Impreza</li>
-        <li>Subaru Legacy</li>
-        <li>Subaru Crosstrek</li>
-        <li>Subaru Forester</li>
-        <li>Subaru Outback</li>
-        <li>Subaru Ascent</li>
+        <h1>PDF Brochures</h1>
+        <li><a href='https://www.subaru.com/guides/lifebook-flipbook/my20/?utm_source=com&utm_medium=view-button&utm_term=lifebook&utm_campaign=RAB&utm_content=MY20'>Model Line</a></li>
+        <li><a href='https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2022/brz/2022_BRZ_Brochure_Final.pdf'>Subaru BRZ</a></li>
+        <li><a href='https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2021/wrx/2021_WRX_Brochure.pdf'>Subaru WRX</a></li>
+        <li><a href='https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2022/impreza/2022_Impreza_Brochure_Final.pdf'>Subaru Impreza</a></li>
+        <li><a href='https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2022/legacy/2022_Legacy_Brochure.pdf'>Subaru Legacy</a></li>
+        <li><a href='https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2021/Crosstrek/2021_Crosstrek_Brochure.pdf'>Subaru Crosstrek</a></li>
+        <li><a href='https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2021/forester/2021_Subaru_Forester_Brochure.pdf'>Subaru Forester</a></li>
+        <li><a href='https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2022/outback/2022_Outback_Brochure.pdf'>Subaru Outback</a></li>
+        <li><a href='https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2022/ascent/2022_Ascent_Brochure_Final.pdf'>Subaru Ascent</a></li>
       </BurgerNavMenu>
     </Container>
   )
@@ -119,7 +121,8 @@ position: fixed;
 inset: 0 0 0 auto;
 width: 300px;
 z-index: 2;
-background: #FFFFFF;
+background: #0E4BEF;
+color: #FFFFFF;
 list-style: none;
 display: flex;
 flex-direction: column;

@@ -17,16 +17,18 @@ function Section ({ id, title, description, msrp, backgroundImg, leftButtonText,
         <FadeIn>
           <ButtonGroup>
             {leftButtonText &&
-              <LeftButton>
+              <a href='https://www.subaru.com/build-your-own.html'><LeftButton>
                 {leftButtonText}
-              </LeftButton>}
+              </LeftButton>
+              </a>}
             {rightButtonText &&
-              <RightButton>
+              <a href='https://www.subaru.com/find-retailer/index.html'><RightButton>
                 {rightButtonText}
-              </RightButton>}
+              </RightButton>  
+              </a>}
           </ButtonGroup>
         </FadeIn>
-        <DownArrow />
+        <DownArrow/>
       </Buttons>
     </Wrap>
   )
